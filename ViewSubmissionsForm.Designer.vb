@@ -29,21 +29,23 @@ Partial Class ViewSubmissionsForm
         '
         'btnNext
         '
+        Me.btnNext.BackColor = System.Drawing.Color.Moccasin
         Me.btnNext.Location = New System.Drawing.Point(477, 301)
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(165, 84)
         Me.btnNext.TabIndex = 0
         Me.btnNext.Text = "btnNext"
-        Me.btnNext.UseVisualStyleBackColor = True
+        Me.btnNext.UseVisualStyleBackColor = False
         '
         'btnPrevious
         '
+        Me.btnPrevious.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.btnPrevious.Location = New System.Drawing.Point(179, 301)
         Me.btnPrevious.Name = "btnPrevious"
         Me.btnPrevious.Size = New System.Drawing.Size(177, 84)
         Me.btnPrevious.TabIndex = 1
         Me.btnPrevious.Text = "btnPrevious"
-        Me.btnPrevious.UseVisualStyleBackColor = True
+        Me.btnPrevious.UseVisualStyleBackColor = False
         '
         'lblSubmissionDetails
         '

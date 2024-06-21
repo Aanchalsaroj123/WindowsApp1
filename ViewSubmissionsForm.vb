@@ -15,6 +15,9 @@ Public Class ViewSubmissionsForm
             Dim client As New WebClient()
             Dim response As String = client.DownloadString("http://localhost:3000/submissions")
             submissions = JsonConvert.DeserializeObject(Of List(Of Submission))(response)
+            If submissions.Count = 0 Then
+                MessageBox.Show("No submissions found.")
+            End If
         Catch ex As Exception
             MessageBox.Show("Error loading submissions: " & ex.Message)
         End Try

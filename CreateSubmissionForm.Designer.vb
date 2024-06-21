@@ -100,12 +100,13 @@ Partial Class CreateSubmissionForm
         '
         'btnSubmit
         '
+        Me.btnSubmit.BackColor = System.Drawing.Color.LimeGreen
         Me.btnSubmit.Location = New System.Drawing.Point(297, 391)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(207, 47)
         Me.btnSubmit.TabIndex = 9
         Me.btnSubmit.Text = "Submit"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.btnSubmit.UseVisualStyleBackColor = False
         '
         'btnToggleStopwatch
         '

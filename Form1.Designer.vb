@@ -28,21 +28,24 @@ Partial Class Form1
         '
         'btnViewSubmissions
         '
+        Me.btnViewSubmissions.BackColor = System.Drawing.Color.DeepSkyBlue
+        Me.btnViewSubmissions.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnViewSubmissions.Location = New System.Drawing.Point(353, 151)
         Me.btnViewSubmissions.Name = "btnViewSubmissions"
         Me.btnViewSubmissions.Size = New System.Drawing.Size(248, 120)
         Me.btnViewSubmissions.TabIndex = 0
         Me.btnViewSubmissions.Text = "View Submissions"
-        Me.btnViewSubmissions.UseVisualStyleBackColor = True
+        Me.btnViewSubmissions.UseVisualStyleBackColor = False
         '
         'btnCreateSubmission
         '
+        Me.btnCreateSubmission.BackColor = System.Drawing.Color.Green
         Me.btnCreateSubmission.Location = New System.Drawing.Point(353, 321)
         Me.btnCreateSubmission.Name = "btnCreateSubmission"
         Me.btnCreateSubmission.Size = New System.Drawing.Size(248, 116)
         Me.btnCreateSubmission.TabIndex = 1
         Me.btnCreateSubmission.Text = "Create New Submission"
-        Me.btnCreateSubmission.UseVisualStyleBackColor = True
+        Me.btnCreateSubmission.UseVisualStyleBackColor = False
         '
         'Form1
         '
